@@ -1,0 +1,20 @@
+
+.btn-cta:hover {
+    opacity: 0.8;
+}
+
+.btn-outline {
+    background: none;
+    color: #fff;
+    border: 2px solid white;
+
+    &:hover {
+        color: #fff;
+        border-color: #ccc;
+    }
+}
+
+.btn-dark {
+    background: #000;
+    color: $white-color;
+}

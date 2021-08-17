@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapi.com/css2?family=Rubik:wght@300;400;600;700;&display=swap');
+$grey-color: #ccc;
+$white-color: #fff;
+$light-green: #00ed82;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.registered-icon::before {
+    font-family: "Font Awesome 5 free"; 
+    font-weight: 400; 
+    content: "\f25d";
+}
+
+.trademark-icon::before {
+    font-weight: 400; 
+}
+
+a {
+    color: $white-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $grey-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+h4 {
+    color: $light-green;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    min-width: 135px;
+    padding: 20px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.legal-text {
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.sub-link {
+    display: block;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.text-xl {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.sub-text {
+    max-width: 850px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .text-xl{
+        line-height: 1.3;
+        font-size: 40px;
+    }
+
+    .sub-text {
+        font-size: 20px;
+    }
+
+}
+
+@import "header.scss";
+@import "buttons.scss";
+@import "sub-header.scss";
+@import "categories.scss";
+@import "live.scss";
+@import "live-sports.scss";
+@import "footer.scss";
+@import "modal.scss";
+@import "form.scss";
